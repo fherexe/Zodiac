@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Switch Case</title>
+</head>
+<body>
+    <main>
+        <h1>Descubra mais sobre sua personalidade baseada em seu signo do Zodíaco!</h1>
+
+        <p>A Astrologia estuda a personalidade dos signos, observando como os astros e seus posicionamentos influenciam nas características humanas.
+        </p>
+
+        <p>As constelações dos signos do zodíaco têm significados profundos que vão além de serem apenas belos conjuntos no céu noturno. Descubra mais sobre sua personalidade!
+        </p>
+
+        <div class="container"> 
+            <label for="listaSignos">Escolha seu Signo:</label>
+            
+            <select name="listaSignos" id="signos">
+                <option value="Áries">Áries</option>
+                <option value="Touro">Touro</option>
+                <option value="Gêmeos">Gêmeos</option>
+                <option value="Aquário">Aquário</option>
+                <option value="Peixes">Peixes</option>
+                <option value="Câncer">Câncer</option>
+                <option value="Leão">Leão</option>
+                <option value="Virgem">Virgem</option>
+                <option value="Libra">Libra</option>
+                <option value="Escorpião">Escorpião</option>
+                <option value="Sagitário">Sagitário</option>
+                <option value="Capricórnio">Capricórnio</option>
+            </select>
+
+            <button onclick="escolhaSigno()" class="zodiac-btn">buscar</button>
+
+            <div class="credits">
+                <p>&copy;Instituto da Oportunidade Social, site desenvolvido por <a href="https://fherexe.github.io/MyLinks/">Fher</a>, todos direitos reservados.</p>
+                <p>fonte: <a href="https://www.personare.com.br/">personare</a> </p>
+            </div>
+        </div>
+    </main>
+
+    <section class="section-container">
+        <div class="zodiac-title">
+            <h1 id="zodiac-name"></h1>
+            <div id="img-zodiac"></div>
+        </div>
+        <div id="sub-title"></div>
+        <div id="frase"></div>
+        <div id="element"></div>
+    </section>
+    
+</body>
+</html>

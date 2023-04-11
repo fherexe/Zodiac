@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: #050111;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    padding: 0 5%;
+    border-right: 2px solid #fff;
+    background-image: url(https://images.unsplash.com/photo-1498116069452-debf99cb30f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+main p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main h1 {
+    text-indent: 20px;
+}
+
+
+.container {
+    margin-top: 8%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+select {
+    border:1px #1164ff solid;
+    width: 300px;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.zodiac-btn {
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    padding:0.5em 120px;
+    width: fit-content;
+    background-image: linear-gradient(144deg,#2af598,#1164ff);
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.zodiac-btn:hover {
+    cursor: pointer;
+}
+
+
+
+.section-container {
+    padding: 10% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 20px;
+    width: 100%;
+}
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center;
+    gap: 5px;
+}
+
+.credits p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.credits a {
+    color: #fff;
+}
+
+.zodiac-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: fit-content;
+}
+
+.zodiac-title h1 {
+    font-size: 7vh;
+}
+
+#img-zodiac img{
+    width: 70px;
+}
+
+#frase {
+    max-width: 550px;
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 20px;
+}
+
+.container-items {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    display: flex;
+    gap: 10px;
+}
+
+#sub-title {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#element img {
+    width: 140px;
+}
+
+
+
+@media (max-width:1020px) {
+    body {
+        flex-direction: column;
+    }
+
+    main {
+        border: none;
+        width: 100%;
+        padding: 10% 5%;
+    }
+
+    main h1 {
+        max-width: 600px;
+    }
+
+    main p {
+        max-width: 600px;
+    }
+}
