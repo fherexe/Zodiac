@@ -1,10 +1,9 @@
 function escolhaSigno() {
 
-    var texto
+    var texto;
     var signo = document.getElementById("signos").value;
 
     switch(signo) {
-
         case "Áries":
             texto = "Áries costuma viver no agora; além de possuir um grande prazer em existir, ação e decisão também podem ser algumas de suas marcas. A liderança é uma característica forte no signo, que pode ser usada para o empreendedorismo.";
 
@@ -13,12 +12,17 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Espontaneidade, coragem e energia.\u0022";
 
         //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Ar";
             document.getElementById("element").style.backgroundColor = "#fca151"
+
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Marte";
+            document.getElementById("item2").innerText ="Cardinal"; 
         break
 
         case "Touro": 
@@ -29,12 +33,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Persistência e teimosia.\u0022";
             
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+            
             document.getElementById("element").innerText = "Terra";
             document.getElementById("element").style.backgroundColor = "#96ffa2"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Fixo";
+            document.getElementById("item2").innerText ="Vênus"; 
         break
 
 
@@ -46,12 +54,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Curiosidade, inteligência e liberdade\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Ar";
             document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Mutável";
+            document.getElementById("item2").innerText ="Mercúrio"; 
         break
 
         case "Câncer":
@@ -62,12 +74,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Sensibilidade, carinho e família.\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Agua";
             document.getElementById("element").style.backgroundColor = "#96afff"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Cardinal";
+            document.getElementById("item2").innerText ="Lua"; 
         break
 
         case "Leão":
@@ -78,12 +94,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Criatividade, autoestima e nobreza.\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Fogo";
             document.getElementById("element").style.backgroundColor = "#ff9696"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Fixo";
+            document.getElementById("item2").innerText ="Sol"; 
             break
 
         case "Virgem":
@@ -94,12 +114,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Objetividade, humanidade e organização.\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Terra";
             document.getElementById("element").style.backgroundColor = "#96ffa2"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Mutável";
+            document.getElementById("item2").innerText ="Mercúrio"; 
         break
 
 
@@ -111,12 +135,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Vaidade, empatia e diplomacia.\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Ar";
             document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Cardinal";
+            document.getElementById("item2").innerText ="Vênus"; 
         break
 
 
@@ -128,12 +156,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Intensidade, mistério e intuição.\u0022";
             
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Agua";
             document.getElementById("element").style.backgroundColor = "#96afff"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Fixo";
+            document.getElementById("item2").innerText ="Marte e Plutão"; 
         break
 
         case "Sagitário":
@@ -144,12 +176,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Otimismo, liberdade e movimento.\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Fogo";
             document.getElementById("element").style.backgroundColor = "#ff9696"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Mutável";
+            document.getElementById("item2").innerText ="Júpiter"; 
         break
 
         case "Capricórnio":
@@ -160,12 +196,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Responsabilidade, ambição e persistência.\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Terra";
             document.getElementById("element").style.backgroundColor = "#96ffa2"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Cardinal";
+            document.getElementById("item2").innerText ="Saturno"; 
         break
 
 
@@ -174,15 +214,19 @@ function escolhaSigno() {
     
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/1885/1885360.png'>";
             document.getElementById("zodiac-name").innerHTML = "Aquário";
-            document.getElementById("sub-title").innerText ="\u0022Inovação, originalidade e independência.\u0022";
+            document.getElementById("sub-title").innerText = "\u0022Inovação, originalidade e independência.\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Ar";
             document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Fixo";
+            document.getElementById("item2").innerText ="Saturno/Urano"; 
         break
 
     
@@ -194,12 +238,16 @@ function escolhaSigno() {
             document.getElementById("sub-title").innerText ="\u0022Solidariedade, intuição e desapego.\u0022";
 
             //Características dos signos //
+            document.querySelector("#name1").innerText = "Elemento";
+            document.querySelector("#name2").innerText = "Ritmo";
+            document.querySelector('#name3').innerText = "Regente";
+
             document.getElementById("element").innerText = "Agua";
             document.getElementById("element").style.backgroundColor = "#96afff"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
-            document.getElementById("item1").innerText ="Teste";
-            document.getElementById("item2").innerText ="Teste"; 
+            document.getElementById("item1").innerText ="Mutável";
+            document.getElementById("item2").innerText ="Júpiter/Netuno"; 
         break
     
 

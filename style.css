@@ -85,8 +85,8 @@ select {
 
 .zodiac-btn:hover {
     cursor: pointer;
-    background: #2af598;
-    transition: all 0.2s ease-out;
+    filter: contrast(150%);
+    transition: all 0.5s ease-out;
 }
 
 .section-container {
@@ -156,25 +156,37 @@ select {
     font-style: italic;
 }
 
+#name-box div, .item-box div {
+    text-align: center;
+    width: 150px;
+    padding: 5px 0;
+    border-radius: 20px;
+}
+
+#name-box {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
 .item-box {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     color: #050111;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 #element img {
     width: 140px;
-}
-
-.item-box div {
-    text-align: center;
-    width: 150px;
-    padding: 5px 0;
-    border-radius: 20px;
 }
 
 /** responsive config **/
@@ -196,9 +208,5 @@ select {
 
     main p {
         max-width: 600px;
-    }
-
-    .item-box {
-        flex-direction: column;
     }
 }
