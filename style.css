@@ -40,6 +40,12 @@ main h1 {
     text-indent: 20px;
 }
 
+main h1 span {
+    background: -webkit-linear-gradient(#2af598, #1164ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .container {
     margin-top: 8%;
