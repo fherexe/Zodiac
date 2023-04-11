@@ -55,7 +55,6 @@ main h1 span {
     gap: 10px;
     align-items: center;
     flex-direction: column;
-    transition: all 0.8s ease-in-out;
 }
 
 label {
@@ -86,6 +85,8 @@ select {
 
 .zodiac-btn:hover {
     cursor: pointer;
+    background: #2af598;
+    transition: all 0.2s ease-out;
 }
 
 .section-container {
