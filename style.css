@@ -47,6 +47,7 @@ main h1 {
     gap: 10px;
     align-items: center;
     flex-direction: column;
+    transition: all 0.8s ease-in-out;
 }
 
 label {
@@ -78,8 +79,6 @@ select {
 .zodiac-btn:hover {
     cursor: pointer;
 }
-
-
 
 .section-container {
     padding: 10% 10%;
@@ -119,6 +118,8 @@ select {
 
 .zodiac-title h1 {
     font-size: 7vh;
+    text-align: center;
+    word-break: break-all;
 }
 
 #img-zodiac img{
@@ -161,7 +162,9 @@ select {
 }
 
 .item-box div {
-    padding: 5px 53px;
+    text-align: center;
+    width: 150px;
+    padding: 5px 0;
     border-radius: 20px;
 }
 
@@ -184,5 +187,9 @@ select {
 
     main p {
         max-width: 600px;
+    }
+
+    .item-box {
+        flex-direction: column;
     }
 }
