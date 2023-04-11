@@ -14,7 +14,7 @@ function escolhaSigno() {
 
         //Caracteristicas dos signos //
             document.getElementById("element").innerText = "Ar";
-            document.getElementById("element").style.backgroundColor = "#96d2ff"
+            document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
             document.getElementById("item1").innerText ="Teste";
@@ -47,7 +47,7 @@ function escolhaSigno() {
 
             //Caracteristicas dos signos //
             document.getElementById("element").innerText = "Ar";
-            document.getElementById("element").style.backgroundColor = "#96d2ff"
+            document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
             document.getElementById("item1").innerText ="Teste";
@@ -112,7 +112,7 @@ function escolhaSigno() {
 
             //Caracteristicas dos signos //
             document.getElementById("element").innerText = "Ar";
-            document.getElementById("element").style.backgroundColor = "#96d2ff"
+            document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
             document.getElementById("item1").innerText ="Teste";
@@ -178,7 +178,7 @@ function escolhaSigno() {
 
             //Caracteristicas dos signos //
             document.getElementById("element").innerText = "Ar";
-            document.getElementById("element").style.backgroundColor = "#96d2ff"
+            document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
             document.querySelector("#item2").style.backgroundColor = "#fffc99";
             document.getElementById("item1").innerText ="Teste";

@@ -42,6 +42,7 @@ main h1 {
 }
 
 main h1 span {
+    font-size: 40px;
     background: -webkit-linear-gradient(#2af598, #1164ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -119,7 +120,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     height: fit-content;
 }
 
