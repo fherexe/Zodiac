@@ -47,7 +47,6 @@ main h1 span {
     -webkit-text-fill-color: transparent;
 }
 
-
 .container {
     margin-top: 5%;
     display: flex;
@@ -97,7 +96,7 @@ select {
     color: #fff;
     gap: 20px;
     width: 100%;
-    background: #061528;
+    background: #080018;
 }
 
 .credits {
