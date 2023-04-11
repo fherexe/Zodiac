@@ -12,7 +12,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Áries";
             document.getElementById("sub-title").innerText ="\u0022Espontaneidade, coragem e energia.\u0022";
 
-        //Caracteristicas dos signos //
+        //Características dos signos //
             document.getElementById("element").innerText = "Ar";
             document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -28,7 +28,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Touro";
             document.getElementById("sub-title").innerText ="\u0022Persistência e teimosia.\u0022";
             
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Terra";
             document.getElementById("element").style.backgroundColor = "#96ffa2"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -45,7 +45,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Gêmeos"
             document.getElementById("sub-title").innerText ="\u0022Curiosidade, inteligência e liberdade\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Ar";
             document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -61,7 +61,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Câncer"
             document.getElementById("sub-title").innerText ="\u0022Sensibilidade, carinho e família.\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Agua";
             document.getElementById("element").style.backgroundColor = "#96afff"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -77,7 +77,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Leão";
             document.getElementById("sub-title").innerText ="\u0022Criatividade, autoestima e nobreza.\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Fogo";
             document.getElementById("element").style.backgroundColor = "#ff9696"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -93,7 +93,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Virgem"
             document.getElementById("sub-title").innerText ="\u0022Objetividade, humanidade e organização.\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Terra";
             document.getElementById("element").style.backgroundColor = "#96ffa2"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -110,7 +110,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Libra";
             document.getElementById("sub-title").innerText ="\u0022Vaidade, empatia e diplomacia.\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Ar";
             document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -127,7 +127,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Escorpião"
             document.getElementById("sub-title").innerText ="\u0022Intensidade, mistério e intuição.\u0022";
             
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Agua";
             document.getElementById("element").style.backgroundColor = "#96afff"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -143,7 +143,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Sagitário"
             document.getElementById("sub-title").innerText ="\u0022Otimismo, liberdade e movimento.\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Fogo";
             document.getElementById("element").style.backgroundColor = "#ff9696"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -159,7 +159,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Capricórnio";
             document.getElementById("sub-title").innerText ="\u0022Responsabilidade, ambição e persistência.\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Terra";
             document.getElementById("element").style.backgroundColor = "#96ffa2"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -176,7 +176,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Aquário";
             document.getElementById("sub-title").innerText ="\u0022Inovação, originalidade e independência.\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Ar";
             document.getElementById("element").style.backgroundColor = "#fca151"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
@@ -193,7 +193,7 @@ function escolhaSigno() {
             document.getElementById("zodiac-name").innerHTML = "Peixes";
             document.getElementById("sub-title").innerText ="\u0022Solidariedade, intuição e desapego.\u0022";
 
-            //Caracteristicas dos signos //
+            //Características dos signos //
             document.getElementById("element").innerText = "Agua";
             document.getElementById("element").style.backgroundColor = "#96afff"
             document.querySelector("#item1").style.backgroundColor = "#ff99ee";
