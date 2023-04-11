@@ -11,7 +11,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/1885/1885499.png'>";
             document.getElementById("zodiac-name").innerHTML = "Áries";
             document.getElementById("sub-title").innerText ="\u0022Espontaneidade, coragem e energia.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/ar.png'>";
+
+        //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Ar";
+            document.getElementById("element").style.backgroundColor = "#96d2ff"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
         case "Touro": 
@@ -20,7 +27,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/3184/3184911.png'>";
             document.getElementById("zodiac-name").innerHTML = "Touro";
             document.getElementById("sub-title").innerText ="\u0022Persistência e teimosia.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/terra.png'>";
+            
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Terra";
+            document.getElementById("element").style.backgroundColor = "#96ffa2"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
 
@@ -30,7 +44,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/3184/3184903.png'>";
             document.getElementById("zodiac-name").innerHTML = "Gêmeos"
             document.getElementById("sub-title").innerText ="\u0022Curiosidade, inteligência e liberdade\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/ar.png'>";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Ar";
+            document.getElementById("element").style.backgroundColor = "#96d2ff"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
         case "Câncer":
@@ -39,7 +60,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/1885/1885449.png'>";
             document.getElementById("zodiac-name").innerHTML = "Câncer"
             document.getElementById("sub-title").innerText ="\u0022Sensibilidade, carinho e família.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/agua.png'>";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Agua";
+            document.getElementById("element").style.backgroundColor = "#96afff"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
         case "Leão":
@@ -48,7 +76,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/1885/1885485.png'>";
             document.getElementById("zodiac-name").innerHTML = "Leão";
             document.getElementById("sub-title").innerText ="\u0022Criatividade, autoestima e nobreza.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/fogo.png'>";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Fogo";
+            document.getElementById("element").style.backgroundColor = "#ff9696"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
             break
 
         case "Virgem":
@@ -57,7 +92,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/3184/3184899.png'>";
             document.getElementById("zodiac-name").innerHTML = "Virgem"
             document.getElementById("sub-title").innerText ="\u0022Objetividade, humanidade e organização.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/terra.png'>";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Terra";
+            document.getElementById("element").style.backgroundColor = "#96ffa2"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
 
@@ -67,7 +109,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/1885/1885383.png'>"
             document.getElementById("zodiac-name").innerHTML = "Libra";
             document.getElementById("sub-title").innerText ="\u0022Vaidade, empatia e diplomacia.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/ar.png'>";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Ar";
+            document.getElementById("element").style.backgroundColor = "#96d2ff"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
 
@@ -77,7 +126,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/3184/3184914.png'>"
             document.getElementById("zodiac-name").innerHTML = "Escorpião"
             document.getElementById("sub-title").innerText ="\u0022Intensidade, mistério e intuição.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/agua.png'>";
+            
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Agua";
+            document.getElementById("element").style.backgroundColor = "#96afff"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
         case "Sagitário":
@@ -86,7 +142,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/3184/3184917.png'>"
             document.getElementById("zodiac-name").innerHTML = "Sagitário"
             document.getElementById("sub-title").innerText ="\u0022Otimismo, liberdade e movimento.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/fogo.png'>";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Fogo";
+            document.getElementById("element").style.backgroundColor = "#ff9696"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
         case "Capricórnio":
@@ -95,7 +158,14 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/3184/3184905.png'>";
             document.getElementById("zodiac-name").innerHTML = "Capricórnio";
             document.getElementById("sub-title").innerText ="\u0022Responsabilidade, ambição e persistência.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/terra.png'>";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Terra";
+            document.getElementById("element").style.backgroundColor = "#96ffa2"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
 
@@ -105,18 +175,32 @@ function escolhaSigno() {
             document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/1885/1885360.png'>";
             document.getElementById("zodiac-name").innerHTML = "Aquário";
             document.getElementById("sub-title").innerText ="\u0022Inovação, originalidade e independência.\u0022";
-            document.getElementById("element").innerHTML = "<img src='img/ar.png'>";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Ar";
+            document.getElementById("element").style.backgroundColor = "#96d2ff"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
         break
 
     
-            case "Peixes":
-                texto = "Peixes costuma entender tudo sem precisar de muitas palavras, possuem uma sensibilidade superior. Signo compassivo e inspirador, Peixes tende a ter uma forte conexão com a espiritualidade, mas pode se iludir com certa facilidade.";
+        case "Peixes":
+            texto = "Peixes costuma entender tudo sem precisar de muitas palavras, possuem uma sensibilidade superior. Signo compassivo e inspirador, Peixes tende a ter uma forte conexão com a espiritualidade, mas pode se iludir com certa facilidade.";
         
-                document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/1885/1885470.png'>";
-                document.getElementById("zodiac-name").innerHTML = "Peixes";
-                document.getElementById("sub-title").innerText ="\u0022Solidariedade, intuição e desapego.\u0022";
-                document.getElementById("element").innerHTML = "<img src='img/agua.png'>";
-            break
+            document.getElementById("img-zodiac").innerHTML = "<img src='https://cdn-icons-png.flaticon.com/512/1885/1885470.png'>";
+            document.getElementById("zodiac-name").innerHTML = "Peixes";
+            document.getElementById("sub-title").innerText ="\u0022Solidariedade, intuição e desapego.\u0022";
+
+            //Caracteristicas dos signos //
+            document.getElementById("element").innerText = "Agua";
+            document.getElementById("element").style.backgroundColor = "#96afff"
+            document.querySelector("#item1").style.backgroundColor = "#ff99ee";
+            document.querySelector("#item2").style.backgroundColor = "#fffc99";
+            document.getElementById("item1").innerText ="Teste";
+            document.getElementById("item2").innerText ="Teste"; 
+        break
     
 
         default:

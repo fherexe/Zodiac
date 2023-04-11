@@ -10,9 +10,9 @@
 body {
     height: 100vh;
     display: flex;
+    background: #050111;
     color: #fff;
     font-family: 'Lato', sans-serif;
-    background-image: url(https://images.unsplash.com/photo-1498116069452-debf99cb30f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
 }
 
 main {
@@ -24,9 +24,10 @@ main {
     width: 70%;
     padding: 0 5%;
     border-right: 2px solid #fff;
+    background-image: url(https://images.unsplash.com/photo-1498116069452-debf99cb30f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     background-position: center;
     background-size: cover;
-    background: #050111ea;
+    background: #00000050;
 }
 
 main p {
@@ -54,7 +55,7 @@ label {
 }
 
 select {
-    border:1px #3c049783 solid;
+    border:1px #1164ff solid;
     width: 300px;
     border-radius: 5px;
     height: 35px;
@@ -145,11 +146,26 @@ select {
     font-style: italic;
 }
 
+.item-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #050111;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 #element img {
     width: 140px;
 }
 
+.item-box div {
+    padding: 5px 53px;
+    border-radius: 20px;
+}
 
+/** responsive config **/
 
 @media (max-width:1020px) {
     body {
