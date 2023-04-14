@@ -94,7 +94,6 @@ select {
     align-items: center;
     justify-content: center;
     color: #fff;
-    gap: 20px;
     width: 100%;
     background: #080018;
 }
@@ -142,6 +141,7 @@ select {
 }
 
 #frase {
+    margin-top: 24px;
     max-width: 550px;
     text-align: justify;
     font-size: 20px;
